@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
+import EncryptButton from "./EncryptButton";
 
 const ShuffleHero = () => {
   return (
@@ -17,9 +18,10 @@ const ShuffleHero = () => {
           insights to drive meaningful conversations and boost customer
           satisfaction.
         </p>
-        <button className="bg-indigo-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-600 active:scale-95">
+        {/* <button className="bg-indigo-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-600 active:scale-95">
           Know More
-        </button>
+        </button> */}
+        <EncryptButton btn_text={"Know More"} />
       </div>
       <ShuffleGrid />
     </section>

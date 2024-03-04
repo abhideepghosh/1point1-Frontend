@@ -9,7 +9,7 @@ export const DigitalTransformation = () => {
         Digital Transformation
       </h2> */}
       <HeaderLink
-        heading="Digital Transformation"
+        heading="#Digital"
         subheading="Tech-driven change for business improvement"
         href="#"
       />

@@ -15,7 +15,7 @@ const IndustriesCarousel = () => {
     <div className="bg-neutral-800">
       <section ref={targetRef} className="relative h-[300vh] bg-neutral-900">
         <div className="sticky top-0 flex h-screen items-center overflow-hidden">
-          <BubbleText text="Powering success across multiple industries" />
+          <BubbleText text="Powering Success Across Multiple Industries" />
           <motion.div style={{ x }} className="flex gap-4">
             {/* {cards.map((card) => {
               return <SCard card={card} key={card.id} />;

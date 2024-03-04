@@ -288,7 +288,7 @@ const Navbar = () => {
                   setFlyer(false)
                 )}
               >
-                <span>Niche Offerings</span>
+                <span>Offerings</span>
                 {/*
                 Heroicon name: solid/chevron-down
   
@@ -510,7 +510,7 @@ const Navbar = () => {
                   setFlyerTwo(!flyerTwo), setFlyer(false), setFlyerThree(false)
                 )}
               >
-                <span>Our Frameworks</span>
+                <span>Frameworks</span>
                 {/*
                 Heroicon name: solid/chevron-down
   

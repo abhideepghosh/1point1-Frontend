@@ -3,7 +3,7 @@ import { useRef } from "react";
 import BubbleText from "./BubbleText";
 import SCard from "./SCard";
 
-const ServicesCarousel = () => {
+const IndustriesCarousel = () => {
   const targetRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: targetRef,
@@ -15,7 +15,7 @@ const ServicesCarousel = () => {
     <div className="bg-neutral-800">
       <section ref={targetRef} className="relative h-[300vh] bg-neutral-900">
         <div className="sticky top-0 flex h-screen items-center overflow-hidden">
-          <BubbleText text="Services Offered Across Omnichannel Touchpoints" />
+          <BubbleText text="Powering success across multiple industries" />
           <motion.div style={{ x }} className="flex gap-4">
             {/* {cards.map((card) => {
               return <SCard card={card} key={card.id} />;
@@ -86,4 +86,4 @@ const cards = [
   },
 ];
 
-export default ServicesCarousel;
+export default IndustriesCarousel;
